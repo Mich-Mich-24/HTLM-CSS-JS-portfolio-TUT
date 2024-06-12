@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Michelle Jessica</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Expreience</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> Michelle Jessica</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Expreience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./profile_pic.JPG" alt="Michelle Jessica profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Michelle Jessica</h1>
+            <p class="section__text_p_2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./CV.pdf')">Download Cv</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./linkedin.jpg" alt="My LinkdIn profile" class="icon" onclick="location.href='https://linkedin.com/'">
+                <img src="./github.jpg" alt="My GitHub profile" class="icon" onclick="location.href='https://github.com/'">
+            </div>
+        </div>
+        
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./about_me.jpg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./experience.jpg" alt="experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>Entry Level <br> Full Stack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./education.jpg" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>Information Technology <br> Nelson Madela University</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        At Nelson Mandela University, I delve into a comprehensive curriculum designed to equip me with essential skills and knowledge for the rapidly evolving tech industry. My studies cover a broad range of topics including software development,database systems, and web technologies. I am trained in both theoretical concepts and practical applications, ensuring I am well-prepared to tackle real-world IT challenges. The university emphasizes innovation and problem-solving, encouraging me to engage in projects and research that address current technological issues. 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./arrow.jpg" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        
+                        </article>
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C#</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>PostGreSQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Node.JS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./checkmark.jpg" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Express.JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./arrow.jpg" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-contaier">
+                <div class="article-container">
+                    <img src="./project-1.jpg" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title"> Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <div class="details-container color-contaier">
+                <div class="article-container">
+                    <img src="./project-2.jpg" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title"> Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+
+            <div class="details-container color-contaier">
+                <div class="article-container">
+                    <img src="./project-3.jpg" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title"> Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        GitHub
+                    </button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+          </div>
+        </div>
+        <img src="./arrow.jpg" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./email.jpg" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./linkedin.jpg" alt="LinkdIn icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+
+    
+    # <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Expreience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Michelle Jessica. All Rights Reserved.</p>
+     </footer> 
+   
+     <script src="scripts.js"></script>
+</body>
+</html>
